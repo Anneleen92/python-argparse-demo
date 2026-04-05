@@ -48,6 +48,14 @@ if __name__ == '__main__':
         help = 'A boolean option.',
     )
 
+    #Adding a new argument
+    parser.add_argument(
+        '-q', '--quiet',
+        default=False,
+        action='store_true',
+        help='Suppress normal output.',
+    )
+
     # Parse the command-line arguments into a 'dict'-like container
     args = parser.parse_args()
 
