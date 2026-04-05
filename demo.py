@@ -63,9 +63,9 @@ if __name__ == '__main__':
         print("Shhh. Be vewy, vewy quiet, I'm hunting wabbits...")
     else:
         # What does `args` object "look" like?
-    print(
-        "The args after being processed by the argparse parser object:\n",
-        args)
+        print(
+            "The args after being processed by the argparse parser object:\n",
+            args)
 
     print("Paths:", args.file_path)
     print("Number:", args.number)
